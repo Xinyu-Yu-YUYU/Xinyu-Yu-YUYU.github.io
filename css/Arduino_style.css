@@ -6,14 +6,14 @@
 }
 body{
     width:100%;
-    background-color:rgb(177, 177, 231)
+    background-color: rgb(163, 209, 163);
 }
 li {
     list-style: none;
 }
 a {
     text-decoration: none;
-    color: rgb(59, 59, 133);
+    color: rgb(12, 105, 12);
 }
 a:hover{
     font-weight: 550;
@@ -42,7 +42,7 @@ a:hover{
 }
 .navbar .nav ul>li:hover {
     color: #fff;
-    background: rgb(240, 159, 240);
+    background: rgb(193, 252, 193);
 }
 .navbar .nav ul>li>a {
     display: block;
@@ -77,4 +77,62 @@ a:hover{
 .navbar .nav ul>li:hover ul {
     background-color: rgba(0, 0, 0, 0.03);
     transform: scaleY(1);
+}
+.essay{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position:absolute;
+    background-color: ivory;
+}
+.essay .container{
+    width: 100%;
+    height: 80px;
+}
+.essay .container .title{
+    position:relative;
+    width:600px;
+    height: 50px;
+    float: left;
+    padding: 50px;
+}
+.essay .container .title:first-child{
+    margin-bottom: 5px;
+    margin-left: 100px;
+    position: relative;
+    width:100%;
+    top:5px;
+    left:5px;
+    right:5px;
+    line-height: 30px;
+}
+.essay .container .title:last-child{
+    margin-top: 10px;
+    margin-left: 80px;
+    position: relative;
+    width:100%;
+    top:10px;
+    left:5px;
+    right:5px;
+    line-height: 30px;
+}
+.essay .container .image{
+    position: relative;
+    width:45%;
+    top:0;
+    right:5px;
+    height: 40px;
+    float: right;
+}
+.essay .essay_body{
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    background-color: ivory;
+    line-height: 2em;
+}
+p{
+    text-indent: 25px;
 }
