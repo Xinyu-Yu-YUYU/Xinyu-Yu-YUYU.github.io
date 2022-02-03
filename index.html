@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鱼的主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url("images/夕阳.png");
+            background-size: cover;
+        }
+
+        .title {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 0;
+            right: 0;
+            top: 250px;
+            margin: auto;
+            bottom: 0;
+            color: cornsilk;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        .titles {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            left: 0;
+            right: 0;
+            top: 300px;
+            margin: auto;
+            bottom: 0;
+            color: cornsilk;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover{
+            font-weight: 550;
+        }
+
+        .navbar {
+            height: 50px;
+            width: 100%;
+            background: white;
+            box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+        }
+
+        .navbar .nav {
+            width: 1200px;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        .navbar .nav ul {
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar .nav ul>li {
+            width: 100%;
+            height: 100%;
+        }
+
+        .navbar .nav ul>li:hover {
+            color: #fff;
+            background: rgb(253, 201, 201);
+        }
+
+        .navbar .nav ul>li>a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            line-height: 70px;
+            height: 100%;
+        }
+
+        .navbar .nav ul>li ul {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.03);
+            display: block;
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            transform: scaleY(0);
+            transition: all 0.6s;
+        }
+
+        .navbar .nav ul>li ul li {
+            height: 50px;
+            border-bottom: 1px solid rgb(245, 245, 245);
+        }
+
+        .navbar .nav u1>li ul li a {
+            display: block;
+            width: 100%;
+            text-align: center;
+            line-height: 50px;
+            height: 100%;
+        }
+
+        .navbar .nav ul>li ul li:hover {
+            background-color: rgba(0, 0, 0, 0.03);
+        }
+
+        .navbar .nav ul>li:hover ul {
+            background-color: rgba(0, 0, 0, 0.03);
+            transform: scaleY(1);
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="title">欢迎来到我的个人网站</h2>
+    <h3 class="titles">Au milieu de l'hiver, j'ai découvert en moi un invincible été.</h3>
+    <div class="navbar">
+        <div class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li>
+                    <a href="#">Arduino</a>
+                    <ul>
+                        <li><a href="Arduino_Board.html">Arduino Board</a></li>
+                        <li><a href="#">Arduino IDE</a></li>
+                        <li><a href="#">Sensors</a></li>
+                        <li><a href="#">Motor</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Algorithm</a>
+                </li>
+                <li>
+                    <a href="#">Computer Vision</a>
+                </li>
+                <li>
+                    <a href="#">Project</a>
+                    <ul>
+                        <li><a href="#">AGV</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Life</a>
+                    <ul>
+                        <li><a href="Extract.html">Extract</a></li>
+                        <li><a href="#">My College</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
